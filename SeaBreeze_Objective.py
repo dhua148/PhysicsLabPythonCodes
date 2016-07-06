@@ -80,7 +80,7 @@ import seabreeze.spectrometers as sb
 
 
 class DetectSpectrometer:
-''' ************** Detection of the OceanOptics spectrumeter **************** '''
+    ''' ************** Detection of the OceanOptics spectrumeter **************** '''
     def __init__(self):
         if len(sb.list_devices()) == 0:
             print ("No spectrometer is detected!")
